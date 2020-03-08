@@ -1,4 +1,4 @@
-# uxml-ecommerce
+# UXML for e-commerce
 E-commerce recommender based on user events
 
 Source of the data: https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop
