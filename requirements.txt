@@ -1,0 +1,6 @@
+torch>=1.2
+pytorch-lightning>=0.7.1
+
+numpy
+pandas
+scipy
