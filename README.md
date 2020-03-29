@@ -6,7 +6,7 @@ E-commerce recommender based on user events
 2. Prepare the data for machine learning with data *data-preparation-uxml.ipynb*
 3. Optionally test the resulting *.npz* with *sparse-matrix-tester.ipynb*
 4. Run one of the training algorithms, such as *train-uxml-basic-matrix-factorization.ipynb* (more to come in the future)
-5. Test the performance of the training alogrithm against a test set (different from train and validation data) **COMING SOON**
+5. Test the performance of the training alogrithm against a test set (different from train and validation data) with *test-uxml.ipynb*
 
 ## Acknowledgments
 * Machine Learning powered by PyTorchLightning [https://github.com/PyTorchLightning/pytorch-lightning]
