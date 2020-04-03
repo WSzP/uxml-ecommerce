@@ -13,5 +13,6 @@ E-commerce recommender based on user events
 ## Acknowledgments
 * Machine Learning powered by PyTorchLightning [https://github.com/PyTorchLightning/pytorch-lightning]
 * Exploratory Data Analysis powered by Pandas [https://github.com/pandas-dev/pandas]
-* Data preparation powered by SciPy [https://github.com/scipy/scipy] & Microsoft Recommenders [https://github.com/microsoft/recommenders]
+* Data preparation powered by SciPy [https://github.com/scipy/scipy]
+* Testing by Microsoft Best Practices on Recommendation Systems [https://github.com/microsoft/recommenders]
 * Source of the data [https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop] (Thanks to REES46 Marketing Platform for this dataset.)
