@@ -2,3 +2,4 @@ view_to_purchase,0.05302496308047948
 cart_to_purchase,0.1954034915603854
 remove_to_purchase,0.042186169516192015
 purchase_to_purchase,1.0
+positive_above,0.6038386626777111

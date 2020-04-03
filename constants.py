@@ -1,3 +1,5 @@
+import numpy as np
+
 # Paths
 DATA_DIR = r'./data/'
 DATA_OCT = DATA_DIR+'2019-Oct.csv'
@@ -48,6 +50,9 @@ DEFAULT_THRESHOLD = 10
 
 # Random seed
 SEED = 74
+
+# Machine epsilon for float32
+EPSILON = np.finfo(np.float32).eps
 
 # Text formatting
 class T:
