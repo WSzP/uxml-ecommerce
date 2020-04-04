@@ -1,3 +1,7 @@
+# Raw data in .csv format
+data/2019-Nov.csv
+data/2019-Oct.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,6 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Scrap notebooks for testing purposes
 train-uxml-01.ipynb
-data/2019-Nov.csv
-data/2019-Oct.csv
