@@ -8,3 +8,7 @@ precision-at-10,0.34191752705560396
 recall-at-10,0.9668412602660089
 ndcg-at-10,1.0
 map-at-10,0.9668412602660089
+true_positive,99.30%
+false_negative,0.70%
+false_positive,0.30%
+true_negative,99.70%
