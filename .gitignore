@@ -133,4 +133,4 @@ dmypy.json
 .pyre/
 
 # Scrap notebooks for testing purposes
-train-uxml-01.ipynb
+/scraps
