@@ -3,7 +3,10 @@ data/2019-Nov.csv
 data/2019-Oct.csv
 
 # No need to upload exports, one can generate them by running the Notebooks
-/export
+export/
+
+# Scrap notebooks for testing purposes
+scraps/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -134,6 +137,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Scrap notebooks for testing purposes
-/scraps
