@@ -2,6 +2,9 @@
 data/2019-Nov.csv
 data/2019-Oct.csv
 
+# No need to upload exports, one can generate them by running the Notebooks
+/export
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
