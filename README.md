@@ -10,7 +10,7 @@ E-commerce recommender based on user events
 
 ## Notes
 * The *data-preparation-test.ipynb* can be used to test the efficiency of data preparation, as in comparing the prepared data to the ground truth. This is not needed for the user-behaviour prediction process.
-* The *quick-test-uxml.ipynb* relies on sparse matrix operations to do only MSE, RMSE, MAE, R-squared, and explained variance, for this reason it runs in 0.3s, compared to 181.56s of the full test which has multiple approaches, and many more metrics.
+* The *quick-test-uxml.ipynb* relies on sparse matrix operations to do only MSE, RMSE, MAE, R-squared, and explained variance, for this reason it runs in 1.1s, compared to 175.89s of the full test which has multiple approaches, and many more metrics.
 
 ## Acknowledgments
 * Machine Learning powered by PyTorchLightning [https://github.com/PyTorchLightning/pytorch-lightning]
