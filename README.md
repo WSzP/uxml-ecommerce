@@ -18,3 +18,6 @@ E-commerce recommender based on user events
 * Data preparation powered by SciPy [https://github.com/scipy/scipy]
 * Testing by Microsoft Best Practices on Recommendation Systems [https://github.com/microsoft/recommenders]
 * Source of the data [https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop] (Thanks to REES46 Marketing Platform for this dataset.)
+
+
+© Copyright 2020 Peter Szabo
