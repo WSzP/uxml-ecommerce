@@ -8,6 +8,11 @@ E-commerce recommender based on user events
 4. Test the performance of the training alogrithm against a test set (different from train and validation data) with *test-uxml.ipynb* or *quick-test-uxml.ipynb*
 5. Put the results in practice. Two use case examples are provided *use-case-examples.ipynb* (item recommender for users and minimalistic stock need prediction to help with e-commerce logistics)
 
+## Automatic Hyper-parameter Optimization (HPO)
+* The Optuna based implementation of HPO: *train-uxml-adam-optuna.ipynb*
+* Applying the hyper-parameters found by Optuna without the need for Optuna framework: *train-uxml-adam-from-best-trial.ipynb*
+
+
 ## Notes
 * The *data-preparation-test.ipynb* can be used to test the efficiency of data preparation, as in comparing the prepared data to the ground truth. This is not needed for the user-behaviour prediction process.
 * The *quick-test-uxml.ipynb* relies on sparse matrix operations to do only MSE, RMSE, MAE, R-squared, and explained variance, for this reason it runs in 1.1s, compared to 175.89s of the full test which has multiple approaches, and many more metrics.
