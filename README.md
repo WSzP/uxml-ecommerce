@@ -12,6 +12,10 @@ E-commerce recommender based on user events
 * The Optuna based implementation of HPO: *train-uxml-adam-optuna.ipynb*
 * Applying the hyper-parameters found by Optuna without the need for Optuna framework: *train-uxml-adam-from-best-trial.ipynb*
 
+## Generalization and scaling
+* The *eda-fe-5months.ipynb* represents scaling the orginal dataset for 5 months (instead of the original 2)
+* *data-cleaning-rees46-purchase.ipynb* introduces a new dataset with 123 event types (purchases from 123 different categories) collected between 2020-01-05 and 2020-11-21 by the REES46 Marketing Platform.
+* *eda-fe-rees46-purchase.ipynb* represents the generalization effort with an arbitrary number of event types from the cleaned up dataset 
 
 ## Notes
 * The *data-preparation-test.ipynb* can be used to test the efficiency of data preparation, as in comparing the prepared data to the ground truth. This is not needed for the user-behaviour prediction process.
@@ -22,7 +26,7 @@ E-commerce recommender based on user events
 * Exploratory Data Analysis powered by Pandas [https://github.com/pandas-dev/pandas]
 * Data preparation powered by SciPy [https://github.com/scipy/scipy]
 * Testing by Microsoft Best Practices on Recommendation Systems [https://github.com/microsoft/recommenders]
-* Source of the data [https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop] (Thanks to REES46 Marketing Platform for this dataset.)
+* Source of the data [https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop] and [https://www.kaggle.com/mkechinov/ecommerce-purchase-history-from-electronics-store] (Thanks to REES46 Marketing Platform for this dataset.)
 
 
 © Copyright 2020 Peter Szabo
