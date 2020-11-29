@@ -9,6 +9,10 @@ UX_CONSTANTS = DATA_DIR+r'ux_constants.csv'
 NEW_USER_ID = DATA_DIR+r'new_user_id.csv'
 NEW_PRODUCT_ID = DATA_DIR+r'new_product_id.csv'
 
+# Paths for the generalised solution
+DATASET_5M = r"../_data/eCommerce-cosmetics/"
+DATASET_SALE = r"../_data/eCommerce-purchase-history/"
+
 LOG_DIR = r'C:\TensorLogs'
 ALL_DATA_PATH = DATA_DIR+r'uxm.npz'
 TRAIN_DATA_PATH = DATA_DIR+r'uxm_train.npz'
